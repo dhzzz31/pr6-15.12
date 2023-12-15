@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
             {
                 // Ограничивание позиции
                 pct.Left = ClientSize.Width - pct.Width;
-                // Остановка таймера, когда достигнут правый край и переименновываем кнопк
+                // Остановка таймера, когда достигнут правый край и меняем название кнопки
                 tmr.Enabled = false; 
                 btnStart.Text = "Старт";
                 pctMove = false; 

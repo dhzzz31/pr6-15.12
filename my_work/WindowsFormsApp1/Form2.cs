@@ -19,9 +19,9 @@ namespace WindowsFormsApp1
 
         private void bntCalc_Click(object sender, EventArgs e)
         {
-            int counter = 0;
-            double sum = 0;
-            double summand = 0.0;
+            int counter = 0;//количество слагаемых
+            double sum = 0;//сумма
+            double summand = 0.0;//слагаемое
             double x;
             double precision;
 
@@ -50,12 +50,25 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Введите числовое значение!");
+                MessageBox.Show("Введите числовое значение в поля!!!!");
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Close();
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form1 f = new Form1();
+            f.Show();
+            this.Hide();
         }
     }
 }

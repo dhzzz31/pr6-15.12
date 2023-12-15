@@ -39,7 +39,7 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(552, 271);
+            this.btnStart.Location = new System.Drawing.Point(657, 310);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 1;
@@ -49,7 +49,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(642, 271);
+            this.btnExit.Location = new System.Drawing.Point(738, 310);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 2;
@@ -63,7 +63,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(42, 250);
+            this.button1.Location = new System.Drawing.Point(12, 309);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(82, 24);
             this.button1.TabIndex = 3;
@@ -74,11 +74,12 @@
             // pct
             // 
             this.pct.ErrorImage = null;
-            this.pct.ImageLocation = "1674026347_flomaster-club-p-eskiz-pudzha-vkontakte-19.jpg";
+            this.pct.Image = global::WindowsFormsApp1.Properties.Resources._1674026347_flomaster_club_p_eskiz_pudzha_vkontakte_19;
+            this.pct.ImageLocation = "";
             this.pct.InitialImage = null;
-            this.pct.Location = new System.Drawing.Point(27, 12);
+            this.pct.Location = new System.Drawing.Point(-280, 23);
             this.pct.Name = "pct";
-            this.pct.Size = new System.Drawing.Size(148, 200);
+            this.pct.Size = new System.Drawing.Size(338, 240);
             this.pct.TabIndex = 4;
             this.pct.TabStop = false;
             // 
